@@ -1,0 +1,32 @@
+<html>
+  <body>
+    <h1>{{restaurant.name}}</h1>
+    <br>
+    <a href='#'>Cancel</a>
+    <br>
+    <hr>
+    <br>
+
+    <form method='POST'>
+      <h2>Edit Menu Item: {{menu_item.name}}</h2>
+      <br>
+      <h3>Name</h3>
+      <input type='text' name='name' type='text' placeholder='{{menu_item.name}}'>
+
+      <h3>Price</h3>
+      <input type='text' name='price' type='text' placeholder='{{menu_item.price}}'>
+
+      <h3>Course</h3>
+      <input type='text' name='course' type='text' placeholder='{{menu_item.course}}'>
+
+      <h3>Description</h3>
+      <input type='text' name='description' type='text' placeholder='{{menu_item.description}}'>
+
+      <br>
+      <br>
+      <input type='submit' value='Enter New Restaurant'>
+    </form>
+
+
+  </body>
+</html>
